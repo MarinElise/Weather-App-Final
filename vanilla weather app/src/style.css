@@ -1,3 +1,50 @@
-h1 {
-  color: blue;
+body {
+  font-family: arial, sans-serif;
+  padding: 25px all;
+}
+.weather-app {
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.8) 0 0 10px;
+}
+.weather-symbol {
+  width: 60px;
+}
+.city {
+  margin: 20px 0 10px;
+  line-height: 29px;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 48px;
+  color: #272142;
+}
+.big-temp {
+  font-size: 50px;
+}
+.far {
+  font-size: 50px;
+  background: linear-gradient(
+    179.4deg,
+    rgb(146, 221, 219) 31.2%,
+    rgb(236, 167, 219) 90.9%
+  );
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: rgb(135, 135, 135);
+  font-size: 16px;
+  font-weight: 100;
+  text-align: left;
+  line-height: 20px;
 }
