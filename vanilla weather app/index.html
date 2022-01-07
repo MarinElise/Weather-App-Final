@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
-    <div class="container">
+    <div class="weather-app-wrapper">
       <div class="weather-app">
         <span class="city">New York</span>
         <ul>
@@ -28,9 +28,11 @@
         </ul>
         <div class="row">
           <div class="col-6">
-            <i class="far fa-sun"></i>
-            <span class="big-temp">12°</span>
-            <span class="units">C | F</span>
+            <div class="clearfix weather-temperature">
+              <i class="far fa-sun"></i>
+              <span class="big-temp">12°</span>
+              <span class="units">C | F</span>
+            </div>
           </div>
           <div class="col-6">
             <ul>
@@ -40,14 +42,13 @@
             </ul>
           </div>
         </div>
-
-        <small>
-          <a href="https://super-cool-weather-app.netlify.app" target="_blank">
-            Open-source code</a
-          >
-          by Marin Hubka
-        </small>
       </div>
+      <small>
+        <a href="https://super-cool-weather-app.netlify.app" target="_blank">
+          Open-source code</a
+        >
+        by Marin Hubka
+      </small>
     </div>
     <script src="src/app.js"></script>
   </body>
